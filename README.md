@@ -1,2 +1,2 @@
-# Portfolio-Data-Science
+# Portfolio-Data-Science | BI | Analytics
 :computer: Data Science projects!
