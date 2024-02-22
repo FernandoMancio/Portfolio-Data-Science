@@ -14,8 +14,8 @@ st.markdown("---")
 ##@st.cache_data
 
 ### importing dataset
-df = pd.read_excel(r'C:/Users/fmanc/Desktop/Project/Perspective_Analytics/Portfolio/titanic.xlsx')
-
+df = pd.read_excel(r'https://github.com/FernandoMancio/Portfolio-Data-Science/blob/main/titanic.xlsx')
+#'C:/Users/fmanc/Desktop/Project/Perspective_Analytics/Portfolio/titanic.xlsx
 def fares(df):
     if df["Fare"] <= 8:
         return "1) 0.000 - 8.000"
