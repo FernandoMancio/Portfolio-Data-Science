@@ -14,7 +14,7 @@ st.markdown("---")
 ##@st.cache_data
 
 ### importing dataset
-df = pd.read_excel('titanic.xlsx')
+df = pd.read_excel('titanic.xlsx', engine='openpyxl')
 
 def fares(df):
     if df["Fare"] <= 8:
